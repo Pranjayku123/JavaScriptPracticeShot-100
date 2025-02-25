@@ -68,6 +68,62 @@ function vowelCountFn(str) {
 
 // console.log(vowelCountFn(vovelString)); 
 
+// Write a function to check if a number is even or odd.
+
+// function checkEvenorOddNumberis(num){
+//   if(num % 2 === 0){
+//     console.log(`${num} is even number`)
+//   }
+//   else{
+//     console.log("odd")
+//   }
+// }
+// checkEvenorOddNumberis(4)
+
+
+// Write a function to find the maximum of three numbers.
+
+// const filterThreeMaxNumber = (arr) => {
+  
+//   const sortedArr = arr.map(Number).sort((a, b) => b - a); //dessending order
+  
+//   const smallNum = arr.map(Number).sort((a, b) => a - b); // assending order
+//   console.log(smallNum.slice(0,3))
+//   return sortedArr.slice(0,3)
+  
+// }
+// const arr = ["20","120","111","215","54","78"];
+
+// console.log(filterThreeMaxNumber(arr))
+
+
+// Write a function to check if a number is prime.
+
+const checkPrimeNumber = (number) => {
+    if (number < 2) {
+      console.log(`${number} is not a prime number`);
+      return;
+    }
+  
+    for (let i = 2; i < number; i++) {
+      if (number % i === 0) {
+        console.log(`${number} is not a prime number`);
+        return;
+      }
+    }
+  
+    console.log(`${number} is a prime number`);
+  };
+  
+//   checkPrimeNumber(6); 
+//   checkPrimeNumber(7); 
+//   checkPrimeNumber(1);
+  
+  
+  
+  
+  
+
 
 
 
